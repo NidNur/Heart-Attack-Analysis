@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalp Krizi Analiz ve Tahmini</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body  style="background-image: url('slider6.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+   
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+
+       <!-- kalp iconu ekleme -->
+       <a class="navbar-brand" href="ön_yüz.html">
+        <i class="fa-solid fa-heart" ></i>
+      </a>
+
+       <!-- telefon modundaki açılır menü -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="ön_yüz.html" style="color:black">Anasayfa</a>
+          </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="hakkımızda.html" style="color:black">Hakkımızda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="makine.html" style="color:black">Makine</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:black">İletişim</a>
+          </li>
+      
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+      <div class="container mt-5" >
+       
+        <form >  <!--  satırların onaylanmasını sağlıyo class -->
+           
+          
+              <div class="form-floating  mb-3" style="width: 50%;  margin: 0 auto;" >
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">Adınız</label>
+              </div>
+  
+              <div class="form-floating mb-3" style="width: 50%; margin: 0 auto;" >
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">Soyadınız</label>
+              </div>
+
+              <div class="form-floating mb-3" style="width: 50%; margin: 0 auto;" >
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">Yaşınız</label>
+              </div>
+            
+
+              <div class="my-3"  style="width: 50%; margin: 0 auto;background-color: #fff;">
+              <div class="form-check  " style="left: 10px;">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"  style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="exampleRadios1">
+                 Kadın
+                </label>
+              </div>
+              <div class="form-check " style="left: 10px;">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="exampleRadios2">
+                  Erkek
+                </label>
+              </div>
+            </div>
+
+          
+            
+            <div class="my-3" style="width: 50%; margin: 0 auto;background-color: 
+            #fff">
+              <p >Egzersize Bağlı Anjina</p>
+              <div class="form-check " style="left: 10px;">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="border-color: rgb(0, 0, 0);" >
+                <label class="form-check-label" for="exampleRadios1">
+                 evet
+                </label>
+              </div>
+              <div class="form-check " style="left: 10px;">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="exampleRadios2">
+                  hayır
+                </label>
+              </div>
+            </div>
+
+             <div style="width: 50%; margin: 0 auto;background-color: 
+             #fff" >
+             <p>Göğüs Ağrısı tipi</p>
+              <div class="form-check form-check-inline " style="left: 10px;" >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="inlineRadio1">Değer 1: tipik anjina</label>
+              </div>
+              <div class="form-check form-check-inline" style="left: 10px;" >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="inlineRadio2">Değer 2: atipik anjina</label>
+              </div>
+              <div class="form-check form-check-inline " style="left: 10px;" >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="inlineRadio2">Değer 3: anjinal olmayan ağrı</label>
+              </div>
+              <div class="form-check form-check-inline " style="left: 10px;" >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4" style="border-color: rgb(0, 0, 0);">
+                <label class="form-check-label" for="inlineRadio2">Değer 4: asemptomatik</label>
+              </div>
+
+            </div>
+
+              
+
+              <div class="form-floating my-3"style="width: 50%;margin: 0 auto; "  >
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">dinlenme kan basıncı (mm Hg cinsinden)</label>
+              </div>
+
+              <div class="form-floating mb-3"style="width: 50%; margin: 0 auto;" > 
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">BMI sensörü aracılığıyla getirilen mg/dl cinsinden kolestoral</label>
+              </div>
+
+              <div class="form-floating mb-3"style="width: 50%;margin: 0 auto; "  >
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"style="background-color:#fff;"></textarea>
+                <label for="floatingTextarea">Ulaşılan maksimum kalp atış hızı</label>
+              </div>
+
+              <div style="width: 50%; margin: 0 auto;background-color:
+              #fff" >
+                <p>dinlenme elektrokardiyografi sonuçları</p>
+                 <div class="form-check form-check-inline " style="left: 10px;">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" style="border-color: rgb(0, 0, 0);">
+                   <label class="form-check-label" for="inlineRadio1">Değer 0: normal</label>
+                 </div>
+                 <div class="form-check form-check-inline" style="left: 10px;" >
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" style="border-color: rgb(0, 0, 0);">
+                   <label class="form-check-label" for="inlineRadio2">Değer 1: ST-T dalgası anormalliğine sahip olmak (T dalga inversiyonları ve/veya > 0,05 mV ST yükselmesi veya çökmesi)</label>
+                 </div>
+                 <div class="form-check form-check-inline" style="left: 10px;" >
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3" style="border-color: rgb(0, 0, 0);">
+                   <label class="form-check-label" for="inlineRadio2">Değer 2: Estes kriterlerine göre olası veya kesin sol ventriküler hipertrofiyi gösteriyor</label>
+                 </div>
+                 
+   
+               </div>
+
+              
+
+              <div class="my-3" style="width: 50%; margin: 0 auto;background-color:#fff; ">
+
+                <p >açlık kan şekeri > 120 mg/dl</p>
+                <div class="form-check " style="left: 10px;" >
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="border-color: rgb(0, 0, 0);" >
+                  <label class="form-check-label" for="exampleRadios1">
+                   doğru
+                  </label>
+                </div>
+                <div class="form-check " style="left: 10px;" >
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"style="border-color: rgb(0, 0, 0);">
+                  <label class="form-check-label" for="exampleRadios2">
+                    yanlış
+                  </label>
+                </div>
+              </div>
+
+              
+              
+          
+           
+            <div class="mb-3" >
+              <button class="btn btn-primary" type="submit"  text-align: center; >Kalp krizi riski ölç</button>
+            </div>
+          </form>
+      </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stacsubkpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
